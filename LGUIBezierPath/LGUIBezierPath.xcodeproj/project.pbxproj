@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A611ED6A20D0FD69000240AC /* CoreGraphicsView.m in Sources */ = {isa = PBXBuildFile; fileRef = A611ED6920D0FD69000240AC /* CoreGraphicsView.m */; };
 		A622217F20CE19ED00BB149C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A622217E20CE19ED00BB149C /* AppDelegate.m */; };
 		A622218220CE19ED00BB149C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A622218120CE19ED00BB149C /* ViewController.m */; };
 		A622218520CE19ED00BB149C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A622218320CE19ED00BB149C /* Main.storyboard */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A611ED6820D0FD69000240AC /* CoreGraphicsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphicsView.h; sourceTree = "<group>"; };
+		A611ED6920D0FD69000240AC /* CoreGraphicsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreGraphicsView.m; sourceTree = "<group>"; };
 		A622217A20CE19ED00BB149C /* LGUIBezierPath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LGUIBezierPath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A622217D20CE19ED00BB149C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A622217E20CE19ED00BB149C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -69,6 +72,8 @@
 				A622218120CE19ED00BB149C /* ViewController.m */,
 				A622219320CE1AAC00BB149C /* BezierPathView.h */,
 				A622219420CE1AAC00BB149C /* BezierPathView.m */,
+				A611ED6820D0FD69000240AC /* CoreGraphicsView.h */,
+				A611ED6920D0FD69000240AC /* CoreGraphicsView.m */,
 				A622218320CE19ED00BB149C /* Main.storyboard */,
 				A622218620CE19EE00BB149C /* Assets.xcassets */,
 				A622218820CE19EE00BB149C /* LaunchScreen.storyboard */,
@@ -152,6 +157,7 @@
 				A622218220CE19ED00BB149C /* ViewController.m in Sources */,
 				A622218D20CE19EE00BB149C /* main.m in Sources */,
 				A622217F20CE19ED00BB149C /* AppDelegate.m in Sources */,
+				A611ED6A20D0FD69000240AC /* CoreGraphicsView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

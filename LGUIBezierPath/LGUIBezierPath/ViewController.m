@@ -8,22 +8,19 @@
 
 #import "ViewController.h"
 #import "BezierPathView.h"
+#import "CoreGraphicsView.h"
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
 
-- (void)loadView
-{
-    self.view = [[BezierPathView alloc]init];
-}
-
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
     
-   
+    CoreGraphicsView *view = [[CoreGraphicsView alloc]initWithFrame:self.view.frame];
+    view.backgroundColor = [UIColor orangeColor];
+    [self.view addSubview:view];
 }
 
 @end
